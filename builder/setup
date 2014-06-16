@@ -76,6 +76,9 @@ build("jruby:1.7.11-openjdk7", "ruby/jruby_1.7.11_openjdk7/");
 build("scala:2.10.3", "scala/scala_2.10.3/");
 build("scala:2.9.3",  "scala/scala_2.9.3/");
 
+# latex
+build("latex",  "latex/");
+
 
 # function to create Docker images and print out
 # the result. If image creation fails, we'll print
